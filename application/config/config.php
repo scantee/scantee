@@ -33,7 +33,7 @@
 
 
 ini_set('display_errors',1); // turn errors off after install
-error_reporting(E_ALL); // turn errors off after install
+error_reporting(E_ALL ^ E_NOTICE); // turn errors off after install
 
 /*
  * PAGELOAD TIMER

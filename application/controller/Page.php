@@ -33,11 +33,11 @@ class Page extends Controller {
     
 
     // instructions page
-    public function instructions($arg = false) { // instructions view
+    public function terms($arg = false) { // instructions view
         $arg = filter_var($arg, FILTER_SANITIZE_STRING);
         
         $data['arg'] = $arg;
-        $data['page'] = 'instructions';
+        $data['page'] = 'terms';
         $this->view('page_view', $data);
     }    
     

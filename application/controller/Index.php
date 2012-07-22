@@ -70,11 +70,10 @@ class Index extends Controller {
         $img_name = uniqid();    
         $qr->draw(493, "public/images/tmp/$img_name.png"); 
         $data['qr_img']=$img_name;
+        $data['text']= $_POST['text'];
         
         endif; 
-    
-
-
+        
         $data['page']='index';
         $this->view('page_view',$data);
     }

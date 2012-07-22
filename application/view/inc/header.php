@@ -3,10 +3,11 @@
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ScanTee</title>
+    <title>Hook up with ScanTee</title>
 
     <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH . 'main.css'; ?>" />
+    <link rel="shortcut icon" href="<?php echo IMG_PATH.'favicon.ico';?>">
 
 </head>
 <body>
@@ -19,11 +20,11 @@
                 <li><a href="/page/contact">Contact us</a></li>
                 <li><a href="/dashboard">Dashboard</a></li>
                 <li><a href="/page/login">Login</a></li>
-                <li><a href="/page/instructions">Instructions</a> </li>
+                <li><a href="/page/terms">Terms of Service</a> </li>
             </ul>                
 
             <h2>
-                ScanTee - QR Dating
+                ScanTee
             </h2>
 
         </div>            
